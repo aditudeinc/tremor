@@ -13,7 +13,7 @@ import {
   useInteractions,
   useRole,
 } from "@floating-ui/react";
-import { spacing, tremorTwMerge } from "lib";
+import { spacing, tremorTwMerge } from "../../../lib";
 import React, { useState } from "react";
 
 export const useTooltip = (delay?: number) => {

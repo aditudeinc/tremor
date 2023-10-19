@@ -1,5 +1,5 @@
-import { BaseColors, DeltaTypes, getColorClassNames } from "lib";
-import { colorPalette } from "lib/theme";
+import { BaseColors, DeltaTypes, getColorClassNames } from "../../../lib";
+import { colorPalette } from "../../../lib/theme";
 
 export type ColorTypes = {
   bgColor: string;

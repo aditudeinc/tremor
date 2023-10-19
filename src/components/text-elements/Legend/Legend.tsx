@@ -1,7 +1,7 @@
 import React from "react";
 
-import { getColorClassNames, makeClassName, sizing, spacing, themeColorRange } from "lib";
-import { colorPalette } from "lib/theme";
+import { getColorClassNames, makeClassName, sizing, spacing, themeColorRange } from "../../../lib";
+import { colorPalette } from "../../../lib/theme";
 import { Color, tremorTwMerge } from "../../../lib";
 
 const makeLegendClassName = makeClassName("Legend");

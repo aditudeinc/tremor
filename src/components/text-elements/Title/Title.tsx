@@ -1,8 +1,8 @@
-import { tremorTwMerge } from "lib";
+import { tremorTwMerge } from "../../../lib";
 import React from "react";
 
-import { getColorClassNames } from "lib";
-import { colorPalette } from "lib/theme";
+import { getColorClassNames } from "../../../lib";
+import { colorPalette } from "../../../lib/theme";
 import { Color } from "../../../lib";
 
 export interface TitleProps extends React.HTMLAttributes<HTMLParagraphElement> {

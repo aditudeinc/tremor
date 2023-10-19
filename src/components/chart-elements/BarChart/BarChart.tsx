@@ -1,5 +1,5 @@
 "use client";
-import { colorPalette, getColorClassNames, tremorTwMerge } from "lib";
+import { colorPalette, getColorClassNames, tremorTwMerge } from "../../../lib";
 import React, { useState } from "react";
 
 import {
@@ -20,7 +20,7 @@ import ChartTooltip from "../common/ChartTooltip";
 import NoData from "../common/NoData";
 import { constructCategoryColors, deepEqual, getYAxisDomain } from "../common/utils";
 
-import { BaseColors, defaultValueFormatter, themeColorRange } from "lib";
+import { BaseColors, defaultValueFormatter, themeColorRange } from "../../../lib";
 
 const renderShape = (props: any, activeBar: any | undefined, activeLegend: string | undefined) => {
   const { x, y, width, height, fillOpacity, name, payload, value } = props;

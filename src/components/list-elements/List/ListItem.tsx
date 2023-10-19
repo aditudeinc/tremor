@@ -1,7 +1,7 @@
-import { tremorTwMerge } from "lib";
+import { tremorTwMerge } from "../../../lib";
 import React from "react";
 
-import { makeClassName, spacing } from "lib";
+import { makeClassName, spacing } from "../../../lib";
 
 const makeListItemClassName = makeClassName("ListItem");
 

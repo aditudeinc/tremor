@@ -1,5 +1,5 @@
 "use client";
-import { makeClassName } from "lib";
+import { makeClassName } from "../../../lib";
 import React from "react";
 import BaseInput, { BaseInputProps } from "../BaseInput";
 

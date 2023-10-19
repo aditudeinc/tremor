@@ -1,6 +1,6 @@
 "use client";
 import { Tab } from "@headlessui/react";
-import { makeClassName, tremorTwMerge } from "lib";
+import { makeClassName, tremorTwMerge } from "../../../lib";
 import React from "react";
 
 const makeTabGroupClassName = makeClassName("TabGroup");

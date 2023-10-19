@@ -7,8 +7,8 @@ import {
   spacing,
   tremorTwMerge,
   ValueFormatter,
-} from "lib";
-import { colorPalette } from "lib/theme";
+} from "../../../lib";
+import { colorPalette } from "../../../lib/theme";
 import React from "react";
 
 const makeBarListClassName = makeClassName("BarList");

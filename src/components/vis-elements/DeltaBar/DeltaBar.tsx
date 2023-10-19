@@ -1,9 +1,9 @@
 "use client";
-import { tremorTwMerge } from "lib";
+import { tremorTwMerge } from "../../../lib";
 import React from "react";
 
-import Tooltip, { useTooltip } from "components/util-elements/Tooltip/Tooltip";
-import { DeltaTypes, makeClassName, mapInputsToDeltaType, sizing } from "lib";
+import Tooltip, { useTooltip } from "../../../components/util-elements/Tooltip/Tooltip";
+import { DeltaTypes, makeClassName, mapInputsToDeltaType, sizing } from "../../../lib";
 import { colors } from "./styles";
 
 const makeDeltaBarClassName = makeClassName("DeltaBar");

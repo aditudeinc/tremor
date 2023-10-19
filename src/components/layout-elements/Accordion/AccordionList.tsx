@@ -1,9 +1,9 @@
 "use client";
-import { tremorTwMerge } from "lib";
+import { tremorTwMerge } from "../../../lib";
 import React from "react";
 
-import { RootStylesContext } from "contexts";
-import { border, makeClassName } from "lib";
+import { RootStylesContext } from "../../../contexts";
+import { border, makeClassName } from "../../../lib";
 
 const makeAccordionListClassName = makeClassName("AccordionList");
 

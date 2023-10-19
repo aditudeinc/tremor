@@ -1,5 +1,5 @@
-import { MinusIcon, PlusIcon } from "assets";
-import { makeClassName, mergeRefs, tremorTwMerge } from "lib";
+import { MinusIcon, PlusIcon } from "../../../assets";
+import { makeClassName, mergeRefs, tremorTwMerge } from "../../../lib";
 import React, { useRef } from "react";
 import BaseInput, { BaseInputProps } from "../BaseInput";
 

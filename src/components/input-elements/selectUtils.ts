@@ -1,4 +1,4 @@
-import { tremorTwMerge } from "lib";
+import { tremorTwMerge } from "../../lib";
 import React from "react";
 
 export interface SelectItemProps {

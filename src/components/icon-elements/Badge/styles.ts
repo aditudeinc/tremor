@@ -1,6 +1,6 @@
-import { fontSize } from "lib/font";
-import { Sizing, sizing } from "lib/sizing";
-import { spacing } from "lib/spacing";
+import { fontSize } from "../../../lib/font";
+import { Sizing, sizing } from "../../../lib/sizing";
+import { spacing } from "../../../lib/spacing";
 
 export type BadgeProportionTypes = {
   paddingX: string;

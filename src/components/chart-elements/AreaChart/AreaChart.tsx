@@ -31,7 +31,7 @@ import {
   getColorClassNames,
   themeColorRange,
   tremorTwMerge,
-} from "lib";
+} from "../../../lib";
 import { CurveType } from "../../../lib/inputTypes";
 
 export interface AreaChartProps extends BaseChartProps {

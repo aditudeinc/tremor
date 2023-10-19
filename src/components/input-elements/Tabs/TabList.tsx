@@ -1,11 +1,11 @@
 "use client";
-import { tremorTwMerge } from "lib";
+import { tremorTwMerge } from "../../../lib";
 import React, { createContext } from "react";
 
-import { BaseColorContext } from "contexts";
+import { BaseColorContext } from "../../../contexts";
 
 import { Tab } from "@headlessui/react";
-import { border, makeClassName, spacing } from "lib";
+import { border, makeClassName, spacing } from "../../../lib";
 import { Color } from "../../../lib";
 
 const makeTabListClassName = makeClassName("TabList");

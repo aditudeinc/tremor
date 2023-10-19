@@ -1,5 +1,5 @@
 "use client";
-import { BaseColors, defaultValueFormatter, themeColorRange, tremorTwMerge } from "lib";
+import { BaseColors, defaultValueFormatter, themeColorRange, tremorTwMerge } from "../../../lib";
 import React, { useEffect } from "react";
 import {
   Pie,
@@ -15,8 +15,8 @@ import NoData from "../common/NoData";
 import { DonutChartTooltip } from "./DonutChartTooltip";
 import { parseData, parseLabelInput } from "./inputParser";
 
-import type { EventProps } from "components/chart-elements/common";
-import { CustomTooltipType } from "components/chart-elements/common/CustomTooltipProps";
+import type { EventProps } from "../../../components/chart-elements/common";
+import { CustomTooltipType } from "../../../components/chart-elements/common/CustomTooltipProps";
 import type BaseAnimationTimingProps from "../common/BaseAnimationTimingProps";
 
 type DonutChartVariant = "donut" | "pie";

@@ -10,7 +10,7 @@ import {
   sub,
 } from "date-fns";
 
-import { makeClassName } from "lib";
+import { makeClassName } from "../../../lib";
 
 export type DateRangePickerOption = {
   value: string;
@@ -116,7 +116,7 @@ export const formatSelectedDates = (
         month: "short",
         day: "numeric",
       };
-      return `${startDate.toLocaleDateString(localeCode, optionsStartDate)} - 
+      return `${startDate.toLocaleDateString(localeCode, optionsStartDate)} -
                     ${endDate.getDate()}, ${endDate.getFullYear()}`;
     } else {
       if (displayFormat)
@@ -126,7 +126,7 @@ export const formatSelectedDates = (
         month: "short",
         day: "numeric",
       };
-      return `${startDate.toLocaleDateString(localeCode, options)} - 
+      return `${startDate.toLocaleDateString(localeCode, options)} -
                     ${endDate.toLocaleDateString(localeCode, options)}`;
     }
   }

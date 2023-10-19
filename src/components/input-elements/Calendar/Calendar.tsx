@@ -12,7 +12,7 @@ import {
   ArrowRightHeadIcon,
   DoubleArrowLeftHeadIcon,
   DoubleArrowRightHeadIcon,
-} from "assets";
+} from "../../../assets";
 import { addYears, format } from "date-fns";
 import { Text } from "../../text-elements/Text";
 import { NavButton } from "./NavButton";

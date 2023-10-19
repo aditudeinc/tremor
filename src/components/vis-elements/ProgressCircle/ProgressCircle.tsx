@@ -1,5 +1,11 @@
-import Tooltip, { useTooltip } from "components/util-elements/Tooltip/Tooltip";
-import { Color, colorPalette, getColorClassNames, makeClassName, tremorTwMerge } from "lib";
+import Tooltip, { useTooltip } from "../../../components/util-elements/Tooltip/Tooltip";
+import {
+  Color,
+  colorPalette,
+  getColorClassNames,
+  makeClassName,
+  tremorTwMerge,
+} from "../../../lib";
 import React from "react";
 
 const makeProgressCircleClassName = makeClassName("ProgressBar");

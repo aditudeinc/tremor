@@ -1,9 +1,9 @@
 import React from "react";
 import { tremorTwMerge } from "../../../lib";
 
-import { border, getColorClassNames, makeClassName, spacing } from "lib";
-import { HorizontalPositions, VerticalPositions } from "lib/constants";
-import { colorPalette } from "lib/theme";
+import { border, getColorClassNames, makeClassName, spacing } from "../../../lib";
+import { HorizontalPositions, VerticalPositions } from "../../../lib/constants";
+import { colorPalette } from "../../../lib/theme";
 import { Color, HorizontalPosition, VerticalPosition } from "../../../lib";
 
 const makeCardClassName = makeClassName("Card");

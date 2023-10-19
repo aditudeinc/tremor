@@ -1,7 +1,7 @@
 "use client";
 import { Tab } from "@headlessui/react";
-import { IndexContext, SelectedValueContext } from "contexts";
-import { makeClassName, tremorTwMerge } from "lib";
+import { IndexContext, SelectedValueContext } from "../../../contexts";
+import { makeClassName, tremorTwMerge } from "../../../lib";
 import React from "react";
 
 const makeTabPanelsClassName = makeClassName("TabPanels");

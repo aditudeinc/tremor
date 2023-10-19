@@ -1,4 +1,12 @@
-import { BaseColors, DeltaTypes, fontSize, getColorClassNames, Sizing, sizing, spacing } from "lib";
+import {
+  BaseColors,
+  DeltaTypes,
+  fontSize,
+  getColorClassNames,
+  Sizing,
+  sizing,
+  spacing,
+} from "../../../lib";
 
 import {
   ArrowDownIcon,
@@ -6,8 +14,8 @@ import {
   ArrowRightIcon,
   ArrowUpIcon,
   ArrowUpRightIcon,
-} from "assets";
-import { colorPalette } from "lib/theme";
+} from "../../../assets";
+import { colorPalette } from "../../../lib/theme";
 
 export type BadgeProportionTypes = {
   paddingX: string;

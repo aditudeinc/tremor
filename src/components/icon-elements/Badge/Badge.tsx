@@ -1,5 +1,5 @@
 "use client";
-import Tooltip, { useTooltip } from "components/util-elements/Tooltip/Tooltip";
+import Tooltip, { useTooltip } from "../../../components/util-elements/Tooltip/Tooltip";
 import {
   Color,
   getColorClassNames,
@@ -9,8 +9,8 @@ import {
   Sizes,
   spacing,
   tremorTwMerge,
-} from "lib";
-import { colorPalette } from "lib/theme";
+} from "../../../lib";
+import { colorPalette } from "../../../lib/theme";
 import React from "react";
 import { badgeProportions, iconSizes } from "./styles";
 

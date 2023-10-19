@@ -1,11 +1,11 @@
 "use client";
 import { Tab as HeadlessTab } from "@headlessui/react";
-import { colorPalette, getColorClassNames, tremorTwMerge } from "lib";
+import { colorPalette, getColorClassNames, tremorTwMerge } from "../../../lib";
 import React, { useContext } from "react";
 
-import { TabVariant, TabVariantContext } from "components/input-elements/Tabs/TabList";
-import { BaseColorContext } from "contexts";
-import { makeClassName, sizing, spacing } from "lib";
+import { TabVariant, TabVariantContext } from "../../../components/input-elements/Tabs/TabList";
+import { BaseColorContext } from "../../../contexts";
+import { makeClassName, sizing, spacing } from "../../../lib";
 import { Color } from "../../../lib/inputTypes";
 
 const makeTabClassName = makeClassName("Tab");

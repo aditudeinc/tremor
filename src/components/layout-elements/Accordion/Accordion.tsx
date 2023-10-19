@@ -1,7 +1,7 @@
 "use client";
 import { Disclosure } from "@headlessui/react";
-import { RootStylesContext } from "contexts";
-import { border, makeClassName, tremorTwMerge } from "lib";
+import { RootStylesContext } from "../../../contexts";
+import { border, makeClassName, tremorTwMerge } from "../../../lib";
 import React, { createContext, useContext } from "react";
 
 const makeAccordionClassName = makeClassName("Accordion");

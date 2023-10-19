@@ -1,9 +1,9 @@
 "use client";
-import { tremorTwMerge } from "lib";
+import { tremorTwMerge } from "../../../lib";
 import React from "react";
 
-import Tooltip, { useTooltip } from "components/util-elements/Tooltip/Tooltip";
-import { colorPalette, getColorClassNames, makeClassName, mergeRefs, spacing } from "lib";
+import Tooltip, { useTooltip } from "../../../components/util-elements/Tooltip/Tooltip";
+import { colorPalette, getColorClassNames, makeClassName, mergeRefs, spacing } from "../../../lib";
 import { Color } from "../../../lib/inputTypes";
 
 export const makeTrackerClassName = makeClassName("Tracker");

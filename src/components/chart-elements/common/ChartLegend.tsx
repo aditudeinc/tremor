@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 
-import { useOnWindowResize } from "hooks";
+import { useOnWindowResize } from "../../../hooks";
 
-import { Legend } from "components/text-elements/Legend";
+import { Legend } from "../../../components/text-elements/Legend";
 import { Color } from "../../../lib";
 
 const ChartLegend = (

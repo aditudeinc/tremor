@@ -2,7 +2,7 @@
 import React from "react";
 import { tremorTwMerge } from "../../../lib";
 
-import Tooltip, { useTooltip } from "components/util-elements/Tooltip/Tooltip";
+import Tooltip, { useTooltip } from "../../../components/util-elements/Tooltip/Tooltip";
 import {
   getColorClassNames,
   makeClassName,
@@ -10,8 +10,8 @@ import {
   spacing,
   sumNumericArray,
   themeColorRange,
-} from "lib";
-import { colorPalette } from "lib/theme";
+} from "../../../lib";
+import { colorPalette } from "../../../lib/theme";
 import { Color } from "../../../lib";
 
 const makeCategoryBarClassName = makeClassName("CategoryBar");
