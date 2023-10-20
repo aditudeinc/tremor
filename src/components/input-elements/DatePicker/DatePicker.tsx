@@ -60,7 +60,7 @@ const DatePicker = React.forwardRef<HTMLDivElement, DatePickerProps>((props, ref
   const [selectedValue, setSelectedValue] = useInternalState<Date | undefined>(defaultValue, value);
 
   const disabledDays = useMemo(() => {
-    const disabledDays = [];
+    const disabledDays: any[] = [];
     if (minDate) disabledDays.push({ before: minDate });
     if (maxDate) disabledDays.push({ after: maxDate });
     return disabledDays;

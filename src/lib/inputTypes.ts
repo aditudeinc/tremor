@@ -30,6 +30,15 @@ export type Size = (typeof sizeValues)[number];
 
 const colorValues = [
   "slate",
+  "slate-100",
+  "slate-200",
+  "slate-300",
+  "slate-400",
+  "slate-500",
+  "slate-600",
+  "slate-700",
+  "slate-800",
+  "slate-900",
   "gray",
   "zinc",
   "neutral",

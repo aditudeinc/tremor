@@ -79,7 +79,7 @@ const DateRangePicker = React.forwardRef<HTMLDivElement, DateRangePickerProps>((
   const [isSelectButtonFocused, setIsSelectButtonFocused] = useState(false);
 
   const disabledDays = useMemo(() => {
-    const disabledDays = [];
+    const disabledDays: any[] = [];
     if (minDate) disabledDays.push({ before: minDate });
     if (maxDate) disabledDays.push({ after: maxDate });
     return disabledDays;

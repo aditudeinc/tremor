@@ -1,7 +1,7 @@
 import React from "react";
 import { Color, defaultValueFormatter, tremorTwMerge } from "../../../lib";
 
-import { ScatterChartValueFormatter } from "components/chart-elements/ScatterChart/ScatterChart";
+import { ScatterChartValueFormatter } from "../../../components/chart-elements/ScatterChart/ScatterChart";
 import { BaseColors, border, getColorClassNames, sizing, spacing } from "../../../lib";
 import { colorPalette } from "../../../lib/theme";
 

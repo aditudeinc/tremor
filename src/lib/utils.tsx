@@ -74,6 +74,9 @@ export function getColorClassNames(
   color: Color | "white" | "black" | "transparent",
   shade?: number,
 ): ColorClassNames {
+  if (color.includes("-")) {
+    [color, shade] = color.split("-") as [Color, number];
+  }
   if (color === "white" || color === "black" || color === "transparent" || !shade) {
     return {
       bgColor: `bg-${color}`,

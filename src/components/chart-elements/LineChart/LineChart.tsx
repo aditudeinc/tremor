@@ -36,6 +36,7 @@ import { CurveType } from "../../../lib/inputTypes";
 export interface LineChartProps extends BaseChartProps {
   curveType?: CurveType;
   connectNulls?: boolean;
+  orientation?: "left" | "right";
 }
 
 interface ActiveDot {
@@ -69,6 +70,7 @@ const LineChart = React.forwardRef<HTMLDivElement, LineChartProps>((props, ref) 
     className,
     onValueChange,
     customTooltip,
+    orientation = "left",
     ...other
   } = props;
   const CustomTooltip = customTooltip;
@@ -196,6 +198,7 @@ const LineChart = React.forwardRef<HTMLDivElement, LineChartProps>((props, ref) 
               )}
               tickFormatter={valueFormatter}
               allowDecimals={allowDecimals}
+              orientation={orientation}
             />
             <Tooltip
               wrapperStyle={{ outline: "none" }}
